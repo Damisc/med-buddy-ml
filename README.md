@@ -1,2 +1,2 @@
 # med-buddy-ml
-Heart Dieses Prediction System
+Heart Dieases Prediction System
