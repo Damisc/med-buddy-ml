@@ -20,7 +20,7 @@ class HeartDiseaseInput(BaseModel):
     restecg: int
     thalach: int
     exang: int
-    oldpeak: int
+    oldpeak: float
     slope: int
     ca: int
     thal: int
@@ -45,3 +45,24 @@ def predict_heart_disease(input_data: HeartDiseaseInput):
             else "No Heart DIsease Detected"
         )
     }
+
+
+
+
+
+
+# # {
+#     "age": 52,
+#     "sex": 1,
+#     "cp": 0,
+#     "trestbps": 125,
+#     "chol": 212,
+#     "fbs": 0,
+#     "restecg": 1,
+#     "thalach": 168,
+#     "exang": 0,
+#     "oldpeak": 1.0,
+#     "slope": 2,
+#     "ca": 0,
+#     "thal": 2
+# }

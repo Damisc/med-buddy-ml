@@ -52,7 +52,7 @@ def train_model():
         X = df.drop(columns=[TARGET_COL])
         y = df[TARGET_COL]
 
-        # Creat a signature for each feature row to prevent duplicate leakage to test set
+        # Create a signature for each feature row to prevent duplicate leakage to test set
         row_signature = pd.util.hash_pandas_object(X, index=False)
 
         # Group-based split 
